@@ -12,7 +12,7 @@ USER root
 
 # Commands to update the image
 # RUN apt-get update && apt-get install -y unzip
-RUN apt-get update && apt-get install -y --no-install-recommends unzip wget telnet vi && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends unzip wget telnet vim && rm -rf /var/lib/apt/lists/*
 
 
 ENV TZ=Asia/Shanghai \
